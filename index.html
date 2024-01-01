@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="style.css"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN.css"
+            crossorigin="anonymous"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <h1>Frosty Mad Libs</h1>
+        <p>Fill in the blanks to create a story!</p>
+        
+        <form id="madLibForm">
+          <label for="adjective">Adjective:</label>
+          <input type="text" id="adjective" required><br><br>
+      
+          <label for="noun">Noun:</label>
+          <input type="text" id="noun" required><br><br>
+      
+          <label for="verb">Verb:</label>
+          <input type="text" id="verb" required><br><br>
+      
+          <label for="adverb">Adverb:</label>
+          <input type="text" id="adverb" required><br><br>
+      
+          <input type="submit" value="Generate Story">
+        </form>
+      
+        <p id="story"></p>
+      
+        <script src="script.js"></script>
+      </body>
+      </html>
